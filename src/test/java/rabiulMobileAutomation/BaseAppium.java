@@ -41,7 +41,7 @@ public class BaseAppium {
 		driver.quit();
 		System.out.println("driver is now closed:");
 		service.stop();
-		System.out.println("Service is now stopped:");
+		System.out.println("Service is stopped");
 	}
 
 }
